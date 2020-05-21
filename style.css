@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Aladin;
+    color: rgba(255, 255, 255, 0.507);
+}
+body{
+    background-image: url(backimg.jpg);
+    position: relative;
+
+}
+.log{
+    background-image:url(font.jpg);
+    background-position: right;
+    padding: 10% 20% 15% 25%;
+    border-radius: 25px;
+    top: 20%;
+    left: 12.5%;
+    width: 25%;
+    position: absolute;
+    box-shadow: 1px 10px 10px 0px rgba(7, 7, 39, 0.774);
+    transform: scaleX(-1);
+}
+.shadow1{
+    background-image: linear-gradient(105deg, rgba(40, 30, 46, 0.856) 0%, rgba(31, 37, 59, 0.856) 50%, transparent 50%);
+    background-position: right;
+    padding: 10% 20% 15% 25%;
+    border-radius: 25px;
+    top: 20%;
+    left: 12.5%;
+    width: 25%;
+    position: absolute;
+}
+.form1{
+    background-position: right;
+    padding: 2% 3% 15% 3%;
+    border-radius: 25px;
+    top: 20%;
+    left: 12.5%;
+    width: 25%;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.513);
+}
+
+
+input[type = "text"],input[type = "password"]{
+    background-color: rgba(52, 52, 98, 0.561);
+    margin: 0px;
+    border: black 1px solid;
+    border-radius: 2px;
+    height: 3rem;
+    width: 20rem;
+}
+.det{
+    background-position: right;
+    padding: 6% 3% 15% 3%;
+    border-radius: 25px;
+    top: 20%;
+    left: 12.5%;
+    width: 25%;
+    position: absolute;
+    color: white;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-gap: 4rem;
+}
+.insert{
+    background-position: right;
+    padding: 7% 10% 15% 3%;
+    border-radius: 25px;
+    top: 20%;
+    left: 12.5%;
+    width: 25%;
+    position: absolute;
+    color: white;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-gap: 2.8rem;
+}
+.cbox{
+    background-position: right;
+    padding: 7% 10% 15% 3%;
+    border-radius: 25px;
+    top: 40%;
+    left: 12.5%;
+    width: 25%;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+input[type = "checkbox"]{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: black;
+}
+input[type = "submit"]{
+    background-position: right;
+    background-color:rgba(52, 52, 98, 0.561);
+    padding: 0;
+    border: 0;
+    border-radius: 3px;
+    top: 60%;
+    left: 15.5%;
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 15px; 
+}
+
+
